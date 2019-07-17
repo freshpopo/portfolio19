@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Timeline';
+    src: url('Timeline.eot');
+    src: url('Timeline.eot?#iefix') format('embedded-opentype'),
+        url('Timeline.woff2') format('woff2'),
+        url('Timeline.woff') format('woff'),
+        url('Timeline.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'S-Core Dream 4';
+    src: url('S-CoreDream-4Regular.eot');
+    src: url('S-CoreDream-4Regular.eot?#iefix') format('embedded-opentype'),
+        url('S-CoreDream-4Regular.woff2') format('woff2'),
+        url('S-CoreDream-4Regular.woff') format('woff'),
+        url('S-CoreDream-4Regular.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'S-Core Dream 9';
+    src: url('S-CoreDream-9Black.eot');
+    src: url('S-CoreDream-9Black.eot?#iefix') format('embedded-opentype'),
+        url('S-CoreDream-9Black.woff2') format('woff2'),
+        url('S-CoreDream-9Black.woff') format('woff'),
+        url('S-CoreDream-9Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+

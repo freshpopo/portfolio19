@@ -1,0 +1,47 @@
+// style guide
+// 컬러, 폰트, 폰트 크기, 자주 사용하는 css 설정
+
+// color 변수
+$color-main: #29CC5F;
+$color-sub: #1A2F33;
+$color-point: #1B0F99;
+$color-bg: #FCFCE3;
+$color-text: $color-sub;
+$color-text-50: #5D6367;
+$color-text-20: #CED0BF;
+
+// font include
+@font-face {
+    font-family: 'Timeline';
+    src: url('../font/Timeline.eot');
+    src: url('../font/Timeline.eot?#iefix') format('embedded-opentype'),
+        url('../font/Timeline.woff2') format('woff2'),
+        url('../font/Timeline.woff') format('woff'),
+        url('../font/Timeline.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-Core Dream';
+    src: url('../font/S-CoreDream-4Regular.eot');
+    src: url('../font/S-CoreDream-4Regular.eot?#iefix') format('embedded-opentype'),
+        url('../font/S-CoreDream-4Regular.woff2') format('woff2'),
+        url('../font/S-CoreDream-4Regular.woff') format('woff'),
+        url('../font/S-CoreDream-4Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-Core Dream';
+    src: url('../font/S-CoreDream-9Black.eot');
+    src: url('../font/S-CoreDream-9Black.eot?#iefix') format('embedded-opentype'),
+        url('../font/S-CoreDream-9Black.woff2') format('woff2'),
+        url('../font/S-CoreDream-9Black.woff') format('woff'),
+        url('../font/S-CoreDream-9Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+// font-size
+$font-size-m: 20px;
+$line-height-m: 28px;

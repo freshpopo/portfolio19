@@ -1,0 +1,117 @@
+@import 'variables.scss';
+
+
+// portfolio option
+h1,h2,h3,h4,h5,h6{
+    font:{
+        weight: 900;
+        family: 'Timeline', sans-serif;
+    }
+}
+
+// mixin
+
+@mixin screenOut{
+    display: block;
+    width: 0;
+    height: 0;
+    text-indent: -9999em;
+}
+
+@mixin transition3{
+    transition: all 0.3s;
+}
+
+@mixin bg_full_bottom{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
+@mixin bg_full_center{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+@mixin bg_full_contain{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom center;
+}
+
+@mixin btn_main_line{
+    display: block;
+    height: 50px;
+    line-height: 48;
+    border: 1px solid $color-main;
+    color: $color-main;
+    text-align: center;
+}
+@mixin btn_sub_line{
+    display: block;
+    height: 50px;
+    line-height: 48;
+    border: 1px solid $color-sub;
+    color: $color-sub;
+    text-align: center;
+}
+@mixin btn_point_line{
+    display: block;
+    height: 50px;
+    line-height: 48;
+    border: 1px solid $color-point;
+    color: $color-point;
+    text-align: center;
+}
+@mixin btn_yellow_line{
+    display: block;
+    height: 50px;
+    line-height: 48;
+    border: 1px solid $color-bg;
+    color: $color-bg;
+    text-align: center;
+}
+
+// animations
+
+
+// class
+.off{
+    display: none;
+}
+
+.on{
+    display: block;
+}
+
+.point_english{
+    font-family: 'Timeline', sans-serif;
+}
+
+.t_bold{
+    font-weight: 900;
+}
+
+.t_color_main{
+    color: $color-main;
+}
+
+.t_color_y{
+    color: $color-bg;
+}
+
+.t_color_point{
+    color: $color-point;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
