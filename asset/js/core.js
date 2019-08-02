@@ -1,3 +1,21 @@
+// includes는 IE에서 동작하지 않아서 indexOf를 사용
+var userAgent = window.navigator.userAgent;
+var isChrome = userAgent.indexOf('Chrome');
+var isChromeMobile = userAgent.indexOf('CriOS');
+var isSamsungBrowser = userAgent.indexOf('SamsungBrowser');
+var isWindows = userAgent.indexOf('Windows NT');
+var isEdge = userAgent.indexOf('Edge');
+var isIE = userAgent.indexOf('Trident');
+
+// 크롬 브라우저 체크
+if(isChrome > -1 || isChromeMobile > -1){
+	if(isSamsungBrowser < 0 && isEdge < 0){
+		
+	} else {
+        $('.color_mov').css('opacity', '0.2');
+    }
+}
+
 $(document).ready(function(){
     var header = $('.header');
     var windowW = $(window).width();
@@ -8,6 +26,7 @@ $(document).ready(function(){
         img_piece3 = $('.img_piece3'),
         img_piece4 = $('.img_piece4');
     
+
     // header menu open
     $('.ico_menu').on('click', function(){
         header.toggleClass('header_open');
@@ -19,7 +38,6 @@ $(document).ready(function(){
     $('.num_phone').click(function(event){
             
         if(windowW > 426){
-            console.log('윈도우 가로크기가 426 보다 크다고');
             event.preventDefault();
             alert('연락처는 010-4316-5216 입니다.');
         }

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 // style guide
 // 컬러, 폰트, 폰트 크기, 자주 사용하는 css 설정
 
@@ -6,9 +7,19 @@ $color-main: #29CC5F;
 $color-sub: #1A2F33;
 $color-point: #1B0F99;
 $color-bg: #FCFCE3;
+$color-shadow: #000000;
 $color-text: $color-sub;
 $color-text-50: #5D6367;
 $color-text-20: #CED0BF;
+$color-work1: $color-main;
+$color-work2: #EE404A;
+$color-work3: #B10000;
+$color-work4: #FEC02D;
+$color-work5: #E8342F;
+$color-work6: #0084F8;
+$color-work7: #E6CF94;
+$color-work8: #FEC82E;
+$color-work9: #73C0E5;
 
 // font include
 @font-face {
@@ -45,3 +56,6 @@ $color-text-20: #CED0BF;
 // font-size
 $font-size-m: 20px;
 $line-height-m: 28px;
+
+// 전환 시간
+$tTime: 0.3s;

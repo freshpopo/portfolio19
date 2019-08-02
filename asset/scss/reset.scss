@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import "variables.scss";
 
 // reset setup
@@ -19,6 +20,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,a,p{
         family: 'S-Core Dream', 'Timeline', sans-serif;
         size: $font-size-m;
     }
+    word-break: keep-all;
     line-height: $line-height-m;
     color: $color-text;
     box-sizing: border-box;
@@ -63,6 +65,6 @@ img{
     background-color: $color-bg;
 }
 ::-webkit-scrollbar-thumb {
-    background-color: $color-main;
+    background-color: darken($color-bg, 10%);
 }
 
