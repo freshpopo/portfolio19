@@ -45,7 +45,7 @@ $(document).ready(function(){
 
     // work 상세 정보 보기
     $('.click_more').on('click', function(){
-        $(this).next().toggleClass('open');
+        $(this).toggleClass('open');
         $(this).next().slideUp();
         if(!$(this).next().is(':visible')){
             $(this).next().slideDown();
