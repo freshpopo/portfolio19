@@ -736,7 +736,7 @@ body{
                 .line_rep{
                     animation-name: widthLeft;
                     animation-duration: 1.5s;
-                    animation-timing-fuction: ease;
+                    animation-timing-function: ease;
                     animation-fill-mode: forwards;
 
                 }
@@ -821,6 +821,7 @@ body{
         
         .box_txt_sum{
             width: calc(50% - 60px);
+            padding: 60px 0;
             
             .pro_sum{
                 @include fontScore;
@@ -838,6 +839,60 @@ body{
                 
                 >span{
                     margin-right: 12px;
+                }
+            }
+
+            .box_moreinfo{
+                margin-top: 20px;
+                
+                .click_more{
+                    text-align: right;
+                    font-size: 14px;
+                    transition: all 0.3s;
+                    color: rgba($color-sub, 0.6);
+                    cursor: pointer;
+
+                    &:hover{
+                        color: $color-sub;
+                    }
+
+                    &.open{
+                        color: $color-sub;
+                    }
+                }
+
+                dl.open_moreinfo{
+                    display: none;
+                    padding: 20px 12px;
+                    box-sizing: border-box;
+                    border: 1px solid $color-sub;
+                    text-align: right;
+                    background-color: rgba($color-sub, 0.8);
+                    
+                    dt{
+                        padding-top: 8px;
+                        font-size: 14px;
+                        color: $color-bg;
+
+                        &:first-child{
+                            padding-top: 0;
+                        }
+                    }
+
+                    dd{
+                        font-size: 14px;
+                        color: $color-bg;
+
+                        a{
+                            font-size: 14px;
+                            color: $color-bg;
+                            text-decoration: underline;
+                        }
+
+                        .t_bold a{
+                            font-weight: 900;
+                        }
+                    }
                 }
             }
             
@@ -1093,8 +1148,6 @@ body{
                         animation-timing-function: ease;
                         animation-fill-mode: forwards;
                         
-                        &:nth-child(1){    
-                        }
                         &:nth-child(2){
                             animation-delay: 1s;    
                         }
