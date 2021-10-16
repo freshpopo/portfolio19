@@ -33,15 +33,6 @@ $(document).ready(function(){
         header.removeClass('sticky');
         $('.open_menu').toggleClass('open');
     });
-    
-    // phone pc
-    $('.num_phone').click(function(event){
-            
-        if(windowW > 426){
-            event.preventDefault();
-            alert('연락처는 010-4316-5216 입니다.');
-        }
-    });
 
     // work 상세 정보 보기
     $('.click_more').on('click', function(){
